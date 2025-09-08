@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>  Study Planner developed by ShaqTech Solutions</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>Student Study Planner</h1>
+    </header>
+
+    <section class="form-wrapper">
+        <form method="POST" action="">
+            <h2>➕ Add Study Task</h2>
+            <label for="course">Course:</label>
+            <input type="text" name="course" id="course" placeholder="e.g., Arabic" required>
+
+            <label for="task">Task:</label>
+            <input type="text" name="task" id="task" placeholder="e.g., Learn Syllabus" required>
+
+            <label for="date">Study Date:</label>
+            <input type="date" name="date" id="date" required>
+
+            <label for="duration">Duration (HH:MM):</label>
+            <input type="time" name="duration" id="duration" required>
+
+            <button type="submit" name="add_task">➕ Add Task</button>
+        </form>
+    </section>
+</body>
+</html>
